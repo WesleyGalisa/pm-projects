@@ -1,0 +1,73 @@
+/* IMPORTAÇÃO DAS FONTES */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* FORMATAÇÃO DAS DIVS BÁSICAS */
+
+body{
+   text-shadow: 5px 5px 5px black;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.proj{
+    display: block;
+    width: auto;
+    height: 83px;
+    background-color: rgb(114, 106, 106);
+    padding: 15px 0px 30px 30px;
+    font-size: 13pt;
+    margin: -7px;
+    text-align: left;
+    border: 2px solid rgba(0, 0, 0, 0.808);
+}
+
+
+div.proj:hover{
+    background-color: rgba(53, 153, 53, 0.925);
+    color: rgba(66, 68, 180, 0.733);
+    transition-delay: 0.5ms;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* FORMATAÇÃO DO EFEITO HOVER */
+
+
+a:hover{
+    color: rgba(66, 68, 180, 0.733);
+    text-shadow: none;
+    
+}
+
+div#pr5:hover{
+    background-color: rgba(235, 57, 57, 0.856);
+}
+
+div#pr1:hover{
+    background-color: rgb(69, 69, 226);
+}
+
+
+/* FORMATAÇÃO DOS "BOTÕES" */
+
+img.qudrado{
+float: left;
+
+}
+
+img.seta{
+display: block;
+position: absolute;
+margin-top: -50px;
+
+}
+
+img.maior{
+    float: right;
+    margin-right: 20px;
+}
