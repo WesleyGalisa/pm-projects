@@ -1,0 +1,45 @@
+/* FORMATAÇÃO DAS DIVS BÁSICAS */
+
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        background-color: gray;
+        
+    }
+
+table{
+    width: 1000px;
+    height: 900px;
+    border-collapse: collapse;
+}
+
+input{
+    display: block;
+    float: left;
+}
+
+img{
+    margin-left: 23px;
+}
+
+td{
+    border-bottom: 1px solid rgba(126, 119, 119, 0.74);
+    
+}
+
+
+div{
+    width:1000px;
+    height: 950px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.5);
+    background-color: rgba(185, 173, 173, 0.5);
+   padding: 5px;
+    border-radius: 3px;
+}
+
+tr:hover{
+    background-color: gray;
+    padding-left: 5px;
+    text-shadow: 2px 1px 1px rgba(7, 7, 7, 0.842);
+}
