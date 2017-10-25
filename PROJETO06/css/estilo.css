@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+@media (min-width: 200px) and (max-width:699px){
+    
+    body{
+        font-family: 'roboto', sans-serif;
+        color: rgb(80, 77, 77);
+        text-transform: uppercase;
+    }
+
+    div#corpo{
+        width: 90%;
+        margin-left: 10px;
+
+    }
+
+
+    div.video{
+        width: 98%;
+        height: 50%;
+        padding: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    figcaption{
+        font-size: 20px;
+    }
+
+    div#logop{
+        width: 100%;
+        height:30%;
+        margin:10% 0% 8% 20% ;
+    }
+
+    img.vid{
+        width: 90%;
+        height: 30%;
+    }
+
+    img#logo{
+        width: 60%
+    }
+}
+
+@media (min-width:700px) and (max-width:1600px){
+    
+    body{
+        font-family: 'roboto', sans-serif;
+        color: rgb(80, 77, 77);
+        text-transform: uppercase;
+    }
+
+    div#corpo{
+        width:1200px;
+        height: 500px;
+        margin-left:13%;
+    }
+
+    div.video{
+        
+        width: 310px;
+        height:200px;
+        display: block;
+        margin: 5px;
+        text-align: center;
+        
+    }
+
+div#logop{
+    width: 100%;
+    display: block;
+    height: 30%;
+margin: 50px 0px 50px 570px;
+
+}
+
+figcaption{
+    font-size: 20px;
+}
+
+div#topo{
+    width: 1200px;
+    height: 220px;
+    
+}
+
+div#esquerda2{
+    margin-left: 350px;
+    margin-top: -204px;
+}
+
+div#center1{
+    margin-left: 700px;
+    margin-top: -205px;
+    
+}
+
+div#baixo{
+    width: 1200px;
+    height: 220px;
+  
+}
+
+div#direita1{
+    margin-left: 350px;
+    margin-top: -204px;
+    }
+
+div#direita2{
+    margin-left: 700px;
+    margin-top:-205px;
+}
+
+}
