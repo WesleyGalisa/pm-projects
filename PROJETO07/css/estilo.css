@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialised;
+}
+
+section{
+    margin-bottom: 5px;
+    width: 1440px;
+   
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header span{
+    visibility: hidden;
+}
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+header nav li#conheca1{
+    margin-left: 120px;
+}
+
+header nav li#conv{
+    width: 65px;
+    border: 1px #fff solid;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+section#topo{
+background-image: url(../imagens/fundo.png);
+background-size: cover;
+height: 828px;
+margin-top: -134px;
+margin-left: -8px;
+padding-right: 8px;
+}
+
+div#topo{
+    height: 828px;
+}
+
+div#titum-topo{
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+div#titum-topo h1{
+    font-size: 50px;
+    color: #fff;
+}
+
+div#titum-topo span{
+    color: #fff;
+    font-size: 36px;
+}
+
+div#titum-topo  a{
+    padding: 28px 150px;
+    background-color: #ff3d7f;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 36px;
+    display: flex;
+    flex: space-around;
+    margin-top: 30px;
+    box-shadow: 0px 6px 0px #941a45;
+}
+
+
+section#conheca{
+    width: 1440px;
+    height: 555px;
+}
+
+div#querotitum{
+    width: 450px;
+    height: 110px;
+    text-align: left;
+    text-justify: justify;
+    text-indent: 5px;
+    margin-left: 30px;
+    margin-top: 70px
+}
+
+div#querotitum h1{
+font-size: 36px;
+}
+
+div#querotitum p{
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+
+div#querotitum a{
+    font-size: 36px;
+    text-decoration: none;
+    background-color: #ff3d7f;
+    padding: 26px 62px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 6px 0px #941a45;
+    
+}
+
+ div#quero img{
+     margin-top: 70px;
+     margin-bottom: 70px;
+ }
+
+ section#depoimento{
+     width: 1440px;
+     height: 440px;
+     border-top: 2px solid purple;
+     margin-left: -7px;
+ }
+
+ div#depoi2{
+     margin-top: 228px;
+     margin-right: 130px;
+     text-align: center;
+     font-size: 24px;
+ }
+ 
+ div#depoi img{
+     position: absolute;
+    width: 151px;
+    height: 150px;
+    margin-left: 350px;
+    margin-top: 65px;
+}
+
+div#depoi2 h3{
+    margin-top: -20px;
+}
+
+section#convite{
+    background-image: url(../imagens/fundo-convite.png);
+    background-size: cover;
+    height:440px;
+    margin-left: -8px;
+}
+
+footer{
+    background-color: #2a0157;
+    width: 1440px;
+    height: 90px;
+    margin-left: -8px;
+    font-size: 18px;
+    color: white;
+}
+
+footer p{
+    margin-top: 38px;
+    margin-left: 320px;
+}
+
+
+div#convitee{
+    width: 641px;
+    height: 120px;
+    background-color: #fff;
+    font-size: 24px;
+    margin-top: 162px;
+    margin-left: 170px;
+}
+
+div#convitee p{
+    margin-left: 40px;
+    margin-top: 45px;
+}    
+
+div#convitee img{
+    margin-top: -10px;
+    position: absolute;
+    margin-right: -20px;
+
+}    
