@@ -1,0 +1,237 @@
+  
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+aside ul{
+    margin-top: 70px;
+}
+
+div#canto-esquerdo{
+    height: 1030px;
+    width: 200px;
+    background-color: #242536;
+    padding-left: 8px;
+    margin-left: -8px;
+}
+
+li.fundo{
+    list-style: none;
+    background-color: #242536;
+    padding: 19px 46px 25px 46px;
+    margin-left: -48px;
+}
+
+li span{
+    position: absolute;
+    font-weight: bold;
+    color:gray;
+}
+
+li span#span1{
+    margin-left: 105px;
+}
+
+li span#span2{
+    margin-left: 30px;
+}
+
+li span#span3{
+    margin-left: 46px;
+    
+}
+
+li a#balance{
+    position: absolute;
+    margin-top: 2px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;    
+    font-weight: bold;
+}
+
+li:hover{
+    background-color: #141524;
+    border-left: 3px solid  #ffb946;
+    padding-left: 43px;
+    cursor: pointer;
+}
+
+div#nucliot{
+    background-color: #141524;
+    width: 108px;
+    padding: 19px 50px;
+    position: absolute;
+    margin-top: -64px;
+    margin-left: -8px
+}
+
+div#canto-direito{
+    width: 1240px;
+    height: 1030px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -1094px;
+}
+
+div#cantod{
+    width: 1240px;
+    height: 64px;
+    background-color: #242536;
+}
+
+div#cantod span{
+    color: #fff;
+    background-color: #3aca60;
+    padding: 5px;
+    border-radius: 40px;
+    float: right;
+    margin-top: 16px;
+    margin-right: 20px;
+}
+
+div#cantod-baixo{
+    background-color: #fff;
+    width: 1240px;
+    height: 60px;
+}
+
+div#cantod-baixo a{
+    text-decoration: none;
+    color: black;
+    margin: 25px 45px 25px 45px;
+    font-size: 14px;
+}
+
+div#cantod-form{
+    width: 1200px;
+    height: 930px;
+    border: 20px solid #f5f5f5;
+}
+
+div#cantod-baixo span{
+    padding-top: 20px;
+    position:absolute;
+    
+}
+
+div#cantod-baixo span#span2{
+    margin-left: 150px;
+    width: 60px;
+    
+}    
+
+div#cantod-baixo span#span1{
+    width: 74px;
+    height: 37px;
+    margin-left: 40px;
+}
+
+div#cantod-baixo span:hover{
+    border-bottom:3px solid  #ffb946;
+    height: 37px;
+    
+}
+
+div#cantod-baixo span a:hover{
+    padding:36px 0px 36px 0px;
+    color: #ffb946;
+    cursor: pointer;
+}
+
+div#cantod-baixo span a{
+    margin-left: 3px;
+}
+
+form#personal h1{
+    margin-top: 40px;
+}
+
+form#personal p{
+    width: 354px;
+    font-size: 12px;
+}
+
+div.formulario{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+form input{
+    padding: 13px 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 211, 211);
+    font-size: 16px;
+}
+
+form select{
+    width: 427px;
+    padding: 15px 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 211, 211);
+    font-size: 16px;
+}
+
+input.formulario2{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+img.ok{
+    margin-left: 12px;
+    width: 18px;
+    height: 18px;
+}
+
+div.check{
+    width: 410px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+div.check2{
+    margin-left: 30px;
+    margin-top: -18px;
+    width: 360px;
+}
+
+div#save button{
+
+    width: 400px;
+    background-color: #3aca60;
+    text-align: center;
+    padding: 13px 13px;
+    border-radius: 3px;
+    margin-top: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+div#cantoo{
+    margin-left: 30px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+form#form2, #any h1{
+    margin-top: 60px;
+}
+
+img.imagem{
+    margin-right: 10px;
+   margin-left: -25px;
+}
+
+img#cifrao{
+    margin-left: -19px;
+}

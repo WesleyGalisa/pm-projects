@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Projeto 09</title>
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <h2>Checkout</h2>
+            <span id="span1" class="header"><a href="#">Dados Pessoais</a></span>><span class="header"><a href="#">Pagamento</a></span>><span class="header"><a href="#">Finalização</a></span>
+            <a href="#"><img src="imagens/quit.png"></a>
+            
+        </header>
+        <div id="cantoes">
+            <div id="wallet">
+                <h2>Wallet</h2>
+                <div id="cardimage">
+                    <div class="cardbox"><img src="imagens/visa.png" alt=""><figcaption>ending in 1234</figcaption></div>
+                    <div class="cardbox"><img src="imagens/master.png" alt=""><figcaption>ending in 1234</figcaption></div>
+                    <div class="cardbox"><img src="imagens/discover.png" alt=""><figcaption> ending in 1234</figcaption></div>
+                </div>
+            </div>
+              <div id="cards">
+                  <form action="#">
+                        <h2>New Card</h2>
+                        <ul>
+                            <li class="edite"><input class="horin" type="text" placeholder="Name On Card"></li>
+                            <li class="edite"><input class="horin" type="numeric" placeholder="1111.1111.1111.1112"></li>
+                            <li class="nodite"><input id="quad" type="numeric" placeholder="MM/YY"></li>
+                            <li class="nodite"><input id="quad2" type="numeric" placeholder="CVC"></li>
+                        </ul>
+                        <input id="rad" type="checkbox"> <span id="add">Add card to wallet</span>
+                        <button id="conti">Continue</button>
+                   </form>
+              </div>
+            </div>
+            <div id="shopcart">
+                <div>
+                    <ul>
+                        <li>
+                            <div class="produto">
+                                <div id="bota" class="imagem"><img id="bota" src="imagens/bota.png"></div>
+                                <div id="botadescricao" class="descricao"><h5>The Chelsea Boot</h5><span>Black</span><span>Quantity:1</span></div>
+                                <span class="money">$232</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="produto">
+                                <div class="imagem"><img src="imagens/bolsa.png" alt=""></div>
+                                <div class="descricao"><h5>The Twill Snap Backpack</h5><span>Reverse Denim + Brown leather</span><span>Quantity:1</span></div>
+                                <span class="money">$65</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="produto">
+                                <div class="imagem"><img src="imagens/bolsinha.png" alt=""></div>
+                                <div class="descricao"><h5>The Twill Zip Tote</h5><span>Reverse Denim + Black leather</span><span>Quantity:1</span></div>
+                                <span class="money">$48</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="cachecol" class="produto">
+                                <div class="imagem"><img src="imagens/cachecol.png" alt=""></div>
+                                <div class="descricao"><h5>The Chunky Wool Scarf</h5><span>Black</span><span>Quantity:1</span></div>
+                                <span class="money">$50</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="soma" class="produto">
+                                <div class="descricao">
+                                    <table>
+                                        <tr>
+                                            <td class="esquerda">Subtotal</td>
+                                            <td class="direita">$398</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="esquerda">Shipping</td>
+                                            <td class="direita">free</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="esquerda">Taxes</td>
+                                            <td class="direita">12.12</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <span class="money"></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div id="total" class="produto">
+                                <div class="descricao">
+                                    <table><tr>
+                                        <td class="esquerda">Total</td>
+                                        <td class="direita">$410.12</td>
+                                    </tr></table>
+                                </div>
+                                <span class="money"></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+@font-face{
+    font-family: "muli";
+    src: url(../multimidia/muli/muli/muli-regular.ttf);
+}
+
+body{
+    display: flex;
+    font-family: "muli";
+}
+
+div#pagina{
+    border:  1px solid rgba(163, 160, 160, 0.397);
+    width: 680px;
+    height: 569px;
+    border-radius: 2px;
+}
+
+div#cantoes{
+    width: 380px;    
+}
+
+div#shopcart{
+    float: right;
+    margin-top: -509px;
+    width: 299px;
+    height: 521px;
+    border-left:  1px solid rgba(163, 160, 160, 0.397);
+    background-color: #ebebeb;
+    
+}
+
+div#pagina header{
+    border-bottom: 1px solid rgba(163, 160, 160, 0.397);
+    padding: 10px;
+}
+
+div#pagina header img{
+    float: right;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+div#pagina header h2, span, img{
+    display: inline;
+}
+
+li{
+    list-style: none;
+    
+}
+
+li.edite{
+    display: block;
+    margin-bottom: 25px;
+}
+
+li.nodite{
+    display: inline;
+}
+
+div#wallet{
+    margin-left: 13px;
+}
+
+div#cardimage{
+    display: inline-flex;
+}
+
+div.cardbox{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(41, 41, 252, 0.329);
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: rgba(41, 41, 252, 0.198);
+}
+
+div#cards h2{
+    border-bottom:  1px solid rgba(163, 160, 160, 0.397);
+    width: 355px;
+    padding-bottom: 5px;
+    margin-left: 13px;
+}
+
+div#cards input{
+    border-radius: 2px;
+    border-style: 1px solid;
+    padding: 13px 0px 13px 13px;
+}
+
+div#cards input.horin{
+    width: 270px;
+}
+
+div#cards input#quad{
+    width: 149px;
+}
+
+div#cards input#quad2{
+    width: 85px;
+    margin-left: 15px;
+}
+
+button#conti{
+    display: block;
+    border-style: none;
+    background-color: #8bd638;
+    border-radius: 2px;
+    color: #fff;
+    padding: 15px 116px 15px 115px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+input#rad{
+    margin-left: 41px;
+}
+
+li.shopcart{
+    width: 258px;
+    height: 20px;
+    background-color: #ebebeb;
+    margin-left: -38px;
+    padding: 20px;
+    margin-top: -10px;
+    display: block;
+}
+
+div.produto{
+    margin-left: -30px;
+    font-size: 10px;
+    border-bottom: 1px solid rgba(163, 160, 160, 0.397);
+    width: 280px;
+    
+}
+div.descricao span{
+    display: block;
+}
+div.produto h5{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+div.descricao{
+    margin-left: 65px;
+    margin-top: -58px;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+span.money{
+    position: absolute;
+    margin-left: 245px;
+    margin-top: -60px;
+    font-size: 12px;
+}
+
+div.produto img{
+    margin-left: -20px;
+    padding-top: 10px;
+}
+
+div.imagem{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+div#botadescricao{
+margin-top: -48px;
+}
+
+div#cachecol{
+    height: 160px;
+}
+
+div#soma{
+    height: 62px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+table{
+    margin-left: -77px;
+}
+
+td.esquerda{
+    text-align: left;
+    padding: 0px 100px 0px 0px
+}
+
+td.direita{
+    text-align: right;
+    padding: 0px 0px 0px 100px;
+}
+
+div#total{
+    margin-top: 55px;
+    font-size: 12px;
+    height: 35px;
+}
+
+span.header{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+span#span1{
+    margin-left: 95px;
+}
+
+span.header a{
+    text-decoration: none;
+    color:  rgb(163, 160, 160);
+}
