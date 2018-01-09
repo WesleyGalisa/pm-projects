@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="font/stylesheet.css">
     <title>Projeto 09</title>
 </head>
 <body>
     <div id="pagina">
         <header>
             <h2>Checkout</h2>
-            <span id="span1" class="header"><a href="#">Dados Pessoais</a></span>><span class="header"><a href="#">Pagamento</a></span>><span class="header"><a href="#">Finalização</a></span>
+            <span id="span1" class="header"><a href="#">Shipping</a></span><span>></span><span class="header"><a id="atual" href="#">Payment Method</a></span><span>></span><span class="header"><a href="#">Confirmation</a></span>
             <a href="#"><img src="imagens/quit.png"></a>
             
         </header>
         <div id="cantoes">
             <div id="wallet">
-                <h2>Wallet</h2>
+                <h2 class="h22">Wallet</h2>
                 <div id="cardimage">
-                    <div class="cardbox"><img src="imagens/visa.png" alt=""><figcaption>ending in 1234</figcaption></div>
-                    <div class="cardbox"><img src="imagens/master.png" alt=""><figcaption>ending in 1234</figcaption></div>
-                    <div class="cardbox"><img src="imagens/discover.png" alt=""><figcaption> ending in 1234</figcaption></div>
+                    <div id="cardbox1" class="cardbox"><img src="imagens/visa.png" alt=""><figcaption>Ending in 1234</figcaption></div>
+                    <div class="cardbox"><img src="imagens/master.png" alt=""><figcaption>Ending in 1234</figcaption></div>
+                    <div class="cardbox"><img src="imagens/discover2.png" alt=""><figcaption>Ending in 1234</figcaption></div>
                 </div>
             </div>
               <div id="cards">
                   <form action="#">
-                        <h2>New Card</h2>
+                        <h2 class="h22">New Card</h2>
                         <ul>
                             <li class="edite"><input class="horin" type="text" placeholder="Name On Card"></li>
                             <li class="edite"><input class="horin" type="numeric" placeholder="1111.1111.1111.1112"></li>
@@ -92,7 +93,7 @@
                         <li>
                             <div id="total" class="produto">
                                 <div class="descricao">
-                                    <table><tr>
+                                    <table><tr id="totais">
                                         <td class="esquerda">Total</td>
                                         <td class="direita">$410.12</td>
                                     </tr></table>

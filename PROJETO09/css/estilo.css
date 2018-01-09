@@ -1,32 +1,56 @@
-@font-face{
-    font-family: "muli";
-    src: url(../multimidia/muli/muli/muli-regular.ttf);
+
+html{
+    background-image: url(../imagens/background.png);
+    background-size: cover;
 }
 
 body{
     display: flex;
-    font-family: "muli";
+    font-family: 'muliregular';
 }
 
 div#pagina{
     border:  1px solid rgba(163, 160, 160, 0.397);
     width: 680px;
-    height: 569px;
+    height: 567px;
     border-radius: 2px;
+    margin:25px auto auto auto;
+    background-color: #fff;
+
+}
+
+h2.h22{
+    font-size: 16px;
+    font-family: 'muliextralight_italic';
+}
+
+header h2{
+    font-size: 18px;
+}
+
+header span{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 div#cantoes{
     width: 380px;    
 }
 
+div#cantoes h2{
+    opacity: 0.75;
+}
+
 div#shopcart{
     float: right;
-    margin-top: -509px;
+    margin-top: -474px;
     width: 299px;
-    height: 521px;
+    height: 529px;
     border-left:  1px solid rgba(163, 160, 160, 0.397);
     background-color: #ebebeb;
-    
+    opacity: 0.85;
+
 }
 
 div#pagina header{
@@ -36,7 +60,7 @@ div#pagina header{
 
 div#pagina header img{
     float: right;
-    margin-top: 3px;
+    margin-top: 1px;
     margin-right: 10px;
 }
 
@@ -66,14 +90,41 @@ div#cardimage{
     display: inline-flex;
 }
 
+
+div.cardbox img{
+    margin-left: 12px;
+    opacity: 0.99;
+}
+
+div.cardbox figcaption{
+    margin-left: 6px;
+    margin-top: 5px;
+    opacity: 0.65;
+
+}
+
 div.cardbox{
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 1px solid rgba(41, 41, 252, 0.329);
+    margin-left: 2px;
+    margin-right: 2px;
     padding: 5px;
     border-radius: 2px;
-    font-size: 14px;
-    background-color: rgba(41, 41, 252, 0.198);
+    font-size: 12px;
+    width: 100px;
+    padding: 12px 5px;
+
+}
+
+div.cardbox:hover{
+    padding: 11px 4px;
+    border: 1px solid rgba(41, 41, 252, 0.329);
+    background-color: rgba(35, 106, 221, 0.198);
+    
+  
+}
+
+div#cards ul, span#add{
+    opacity: 0.75;
+
 }
 
 div#cards h2{
@@ -152,12 +203,13 @@ div.descricao{
     width: 150px;
     height: 50px;
 }
-
+ 
 span.money{
     position: absolute;
     margin-left: 245px;
     margin-top: -60px;
     font-size: 12px;
+    font-family: 'muliextrabold';
 }
 
 div.produto img{
@@ -175,11 +227,11 @@ margin-top: -48px;
 }
 
 div#cachecol{
-    height: 160px;
+    height: 155px;
 }
 
 div#soma{
-    height: 62px;
+    height: 80px;
     margin-top: 50px;
     font-size: 12px;
 }
@@ -190,30 +242,46 @@ table{
 
 td.esquerda{
     text-align: left;
-    padding: 0px 100px 0px 0px
+    padding: 5px 100px 5px 0px
 }
 
 td.direita{
     text-align: right;
-    padding: 0px 0px 0px 100px;
+    padding: 5px 0px 5px 85px;
+    font-family: 'muliextralight_italic';
+
+}
+
+tr#totais{
+    font-weight: bolder;
 }
 
 div#total{
-    margin-top: 55px;
+    margin-top: 65px;
     font-size: 12px;
-    height: 35px;
+    height: 0px;
+    border-bottom-style: none;
+    background-color: #fff;
+
 }
 
 span.header{
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 12px;
 }
 
 span#span1{
-    margin-left: 95px;
+    margin-left: 35px;
 }
 
 span.header a{
     text-decoration: none;
     color:  rgb(163, 160, 160);
+    margin-right: -6px;
+    margin-left: -6px;
+}
+
+a#atual{
+    font-weight: bolder;
 }
