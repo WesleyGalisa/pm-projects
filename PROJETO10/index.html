@@ -4,16 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <title>Portifólio</title>
 </head>
 <body>
-    
-    <aside>
-        
-    </aside>
-    <div>
+    <div id="page" class="container">
+        <aside class="column is-4">
+            <img src="imagens/eu.jpg" alt="">
+            <h1>Wesley Robson Galisa</h1>
+            <h2>Full Stack JavaScript Developer</h2>
+            <a id="buttonn" href="../projeto04/index.html" class="button is-warning">Portifólio</a>
+            <ul id="redessociais">
+                <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+            </ul>
 
+            <ul id="progressbar">
+                <h3>Conhecimentos</h3>
+                <li><small>HTML & CSS</small><progress class="progress is-warning is-small" value="90" max="100">15%</progress></li>
+                <li><small>JavaScript</small><progress class="progress is-warning is-small" value="30" max="100">15%</progress></li>
+                <li><small>PHP</small><progress class="progress is-warning is-small" value="10" max="100">15%</progress></li>
+                <li><small>Ruby on Rails</small><progress class="progress is-warning is-small" value="1" max="100">15%</progress></li>
+            </ul>
+        </aside>
+        <div id="direito" class="column is-8">
+            <article>
+                <h3><i class="fa fa-file-text" aria-hidden="true"></i>Resumo</h3>
+                <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.</p>
+                <p>Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.</p>
+            </article>
+                
+            <article id="exp">
+                <h3><i class="fa fa-briefcase" aria-hidden="true"></i>Experiência</h3>
+                  <div class="columns">
+                      <div class="column">
+                          <h4>Empresa</h4>
+                          <h5>descrição</h5>
+                          <small>período</small>
+                      </div>
+                      <div class="column">
+                          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam earum sed at repellat! Minus doloremque ut cupiditate, debitis, et dolores quas maxime vero fugiat pariatur repellendus? Qui, eaque odio?</p>
+                      </div>
+                  </div>
+                  <div class="columns">
+                    <div class="column">
+                        <h4>Empresa</h4>
+                        <h5>descrição</h5>
+                        <small>período</small>
+                    </div>
+                    <div class="column">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias nesciunt, dolores facilis quisquam omnis ipsum corrupti laboriosam libero sequi deleniti quos cum, soluta, tempora dolore? Ratione inventore iusto expedita.</p>
+                    </div>
+                </div>
+
+                <article>
+                    <h3><i class="fa fa-trophy" aria-hidden="true"></i>Formação</h3>
+                    <div class="columns">
+                        <div class="column">
+                            <h4>Escola</h4>
+                            <h5>descrição</h5>
+                            <small>período</small>
+                        </div>
+                        <div class="column">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem nam earum sed at repellat! Minus doloremque ut cupiditate, debitis, et dolores quas maxime vero fugiat pariatur repellendus? Qui, eaque odio?</p>
+                        </div>
+                    </div>
+                    <div class="columns">
+                      <div class="column">
+                          <h4>Escola</h4>
+                          <h5>descrição</h5>
+                          <small>período</small>
+                      </div>
+                      <div class="column">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium alias nesciunt, dolores facilis quisquam omnis ipsum corrupti laboriosam libero sequi deleniti quos cum, soluta, tempora dolore? Ratione inventore iusto expedita.</p>
+                      </div>
+                  </div>
+                </article>
+
+        </div>
     </div>
-    
 </body>
 </html>
