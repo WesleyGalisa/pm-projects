@@ -1,0 +1,30 @@
+body{
+    background-color: #ecf0f1;
+    font-family: Arial, sans-serif;
+    
+}
+
+ul{
+    list-style: none;
+    color: #fff;
+    width: 300px;
+}
+
+li{
+    background-color: #9b59b6;
+    width: 300px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
+
+ul h1{
+    color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+ul h3{
+    color: black;
+    margin-top: 0px;
+    text-align: center;
+}
