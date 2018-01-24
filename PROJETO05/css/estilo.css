@@ -1,67 +1,138 @@
-/* FORMATAÇÃO DAS DIVS BÁSICAS */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
-    @import url('https://fonts.googleapis.com/css?family=Roboto');
-
-    body{
-        font-family: 'Roboto', sans-serif;
-        background-color: gray;
-        
-    }
+body{
+    font-family: 'Roboto' , sans-serif;
+    background-color: #9b9b9b;
+}
 
 table{
-    width: 1000px;
-    height: 900px;
+    background-color: #fff;
+    margin:95px auto 90px auto;
     border-collapse: collapse;
 }
+ 
 
-input{
-    display: block;
-    float: left;
+
+thead tr#tr1 td{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 24px 28px;
+
 }
 
-img{
-    margin-left: 23px;
+thead tr#tr2 td{
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px rgba(128, 128, 128, 0.570) solid;
+    padding: 16px 0px ;
+
 }
 
-td{
-    border-bottom: 1px solid rgba(126, 119, 119, 0.74);
-    
+
+thead td span.span2{
+    margin-top: -11px;
+    position: absolute;
+    padding-right: 70px;
+}
+
+thead tr#tr2 td.column2{
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+tbody td.column2{
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+tbody td span.span2{
+    margin-top: -11px;
+    position: absolute;
+}
+
+thead tr#tr2 td#tr3{
+    padding-left: 10px;
+}
+
+thead tr#tr2:hover{
+    background-color: #eeeeee;
+}
+
+tbody td{
+    font-size: 13px;
+    padding:17px  75px 17px 0px;
+    border-bottom: 1px rgba(128, 128, 128, 0.548) solid;
+}
+
+tbody tr:hover{
+    background-color: #eeeeee;
 }
 
 
-div{
-    width:1000px;
-    height: 937px;
-    box-shadow: 2px 2px 2px rgba(5, 5, 5, 0.5);
-    background-color: rgba(240, 229, 229, 0.5);
-   padding: 5px;
-    border-radius: 3px;
+
+td input{
+    width: 18px;
+    height: 18px;
+    border-style: none;
 }
 
-tr:hover{
-    background-color: gray;
-    padding-left: 5px;
-    text-shadow: 2px 1px 1px rgba(7, 7, 7, 0.842);
+td span{
+    padding: 16px 10px;
 }
-tfoot{
+
+tfoot tr td{
+    padding: 20px 0px;
+    font-size: 12px;
     text-align: right;
-    
+    color: rgba(0, 0, 0, 0.637);
 }
 
-tfoot td{
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+tfoot td#foot1{
+    padding-right: 0px;
 }
 
+tfoot td option{
+    border-style:none;
+}
 
-table caption{
-    padding: 10px;
+tfoot td a img{
+    width:8px;
+    height: 13px;
+}
+
+tfoot td#foot2{
     text-align: left;
-    font-size: 13pt;
+   padding-left: 10px;
 }
 
-table th{
+tfoot td#foot3{
     text-align: left;
-    text-indent: 5px;
+    padding-left: 30px;
+}
+
+a#direita{
+    padding-left:30px;
+}
+
+a#esquerda{
+    padding-right:20px;
+}
+
+tfoot span {
+    padding-left: 20px;
+    padding-right: 35px;
+}
+
+tbody td.columg{
+    padding-right: 35px;
+}
+
+td.ult{
+    padding-left: 40px;
+    padding-right: 110px;
+}
+
+thead tr#tr2 td.ult{
+    padding-left: 40px;
+    padding-right: 110px;
 }

@@ -3,7 +3,7 @@
  
 body{
     background-color: #745cc1;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
  div#pagina-login{
@@ -12,8 +12,6 @@ body{
     height: 667px;
     background-color: #745cc1;
     margin-left: 485px;
-    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.151);
-    border-left:2px solid rgba(0, 0, 0, 0.151) ;
 }
 
 form{
@@ -29,8 +27,12 @@ button#login{
     background-color: white;
     width: 247px;
     height: 50px;
-    border-radius: 8px;
+    border-radius: 40px;
     font-size: 18px;
+    border-style: none;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.690);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.445);
 }
 
 a#esqsenha{
@@ -50,6 +52,7 @@ height: 21px;
 margin-bottom: 59px;
 
 
+
 }
 
 ::-webkit-input-placeholder{
@@ -57,6 +60,8 @@ margin-bottom: 59px;
     margin-bottom: -50px;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
 }
 
 img#locker{

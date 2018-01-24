@@ -4,87 +4,60 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 /* Formatação do body */
-
 body{
-     font-family: 'Open Sans', sans-serif;
-     background-color: grey;
-     text-align: justify;
+    background-color: #E6E6E6;
+    font-family: 'open-sans', sans-serif;
+    font-size: 14px;
 }
-
-/* Formatação da area da página */
-
-div.pagina{
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    background-color: white;
-width: 300px;
-height: 330px;
-
-}
-
-div#pagina2{
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    width: 300px;
-    height: 330px;
-    margin-top: 35px;    
-}
-
-/* Formatação da area da imagem */
-
-div.imagem{
-padding-bottom: 0px;
-width: 300px;
-height: 168px;
-
-}
-
-/* Formatação da area da noticia */
-
-div.noticia{
-width: 283px;
-height: 54px;
-
-}
-
-div.noticia a{
-    text-decoration: none;
-}
-
-div.noticia h2{
     
- margin-top: 0px;
-    margin-left: 8px;
-color: #b5000d;
-font-size: 16px;
+    div.info{
+        width: 302px;
+        background-color: #fff;
+        border-radius: 0 0 2px 2px;
+        padding-bottom: 15px;
+        margin:0px auto 50px auto;
+    }
 
-}
+    div.info img{
+        width: 302px;
+        height: 168px; 
+        border-radius: 2px 2px 0px 0px ;
 
-div.noticia p{
-    margin-left: 8px;
-color: #333333;
-font-size: 14px;
-font-style: none;
+    }
 
-}
+    h3{
+        opacity: 0.8;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 0px 10px;
+    }
 
-div.header p.p{
-    margin-top:5px;
-    margin-left: 8px;
-    float: top;
-    font-size: 16px;
-    margin-bottom: 5px;
-    color:#333333;
-    font-style: bold;
-}
+    h3 small{
+        font-size: 11px;
+        opacity:0.4;
+        margin-left: 10px;
+    }
 
-div.header span.h{
-    margin-left: 8px;
-    margin-bottom: 5px;
-   color: #999999;
-    font-size: 11px;
-    
-}
+    p{
+        text-align: justify;
+        padding: 0px 10px;
+       
+    }
+
+    p.p1{
+        
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    p.p1 a{
+        text-decoration: none;
+        color: #b5000d;
+    }
+
+    p.p2{
+        color: #333333;
+        opacity:0.7;
+    }
 
 /* link: http://bit.ly/pm-proj002-noticia */

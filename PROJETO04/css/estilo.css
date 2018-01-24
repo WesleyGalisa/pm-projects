@@ -8,10 +8,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+div#page{
+    overflow: hidden;
+    width: 100%;
+    margin: -8px -8px 0px -8px;
+    padding-right: 22px;
+}
+
 ul{
+    width: 100%;
     list-style: none;
-    margin-left: -46px;
-    margin-top: -5px;
+    margin-left: -47.6px;
+    margin-top: -8px;
     margin-bottom: 0px;
 }
 
@@ -21,21 +29,26 @@ ul a{
 }
 
 ul li{
-    background-color: rgb(8, 92, 8);
-    border-bottom: 1px solid black;
-    padding: 30px 10px;
-    width: 99%;
+    background-color: #27ae60;
+    padding: 55px 28px;
+    width: 98%;
     margin: auto;
+    border-bottom: 2px solid #fff;
+}
+
+ul li:hover{
+    background-color: rgba(39, 174, 95, 0.8);
 }
 
 img.direita{
     float: right;
-    margin: -3px 0px;
+    margin: -3px 0px 0px 0px;
 }
 
 img.esquerda{
     float: left;
     margin-top: -7px;
+    
 
 }
 
